@@ -1,0 +1,38 @@
+human h1;
+h1.a;
+
+/*
+
+************/
+
+16 bit compiler = 2 bytes
+32 bit compiler = 4 bytes
+
+Data Types:
+
+short int long: 2 or 4 bytes: Signed or Unisigned
+
+char: 1 byte: Signed or Unisigned
+
+float: 4  bytes: Signed or Unisigned
+
+double: 8 bytes: Signed or Unisigned
+
+Signed: -ve an +ve
+
+Unsigned: +ve
+
+short: 2 bytes: 2 * 8 bits: 16 bits
+
+binary: 0 and 1: 2 ^ 16: 65536
+
+Unsigned: 0 to 65535
+
+Signed: 65536/2: 32768
+
+0 to 32767 and -1 to -32768
+
+-32768 to 32767
+
+
+
