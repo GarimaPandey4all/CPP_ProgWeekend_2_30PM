@@ -1,0 +1,7 @@
+OOPS:
+
+1. Encapsulation: Class is the example of Encapsulation
+2. Abstraction: Data Hiding
+3. Inheritance: Super Class(Parent Class), Base Class
+	and Sub Class(Child Class), Derived Class
+4. Polymorphism: Poly-Many , Morphism: Forms
