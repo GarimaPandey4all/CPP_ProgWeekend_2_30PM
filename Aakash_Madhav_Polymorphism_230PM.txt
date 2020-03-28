@@ -1,0 +1,21 @@
+Polymorphism:
+
+many forms:
+
+person: brother, father, employee
+
+polymorhism: 2 types
+
+1. Compile time polymorhism
+
+2. Runtime polymorhism
+
+1. Compile time polymorhism:
+
+Function overloading
+
+operator overloading
+
+2. Runtime Polymorphism
+
+Function overriding or virtual functions
