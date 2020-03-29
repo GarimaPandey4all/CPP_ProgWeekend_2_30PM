@@ -1,0 +1,16 @@
+int a = 10; //normal variable //value store
+
+int b = 20;
+
+int *a = &b; //pointer variable //indirection //address store
+
+*a-->address of b-->value of 
+
+int *a = NULL;
+
+a = &b;
+
+
+
+
+
