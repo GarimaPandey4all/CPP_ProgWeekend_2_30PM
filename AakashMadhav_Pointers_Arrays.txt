@@ -1,0 +1,13 @@
+int array[10];
+
+0, 1, 2, 3, 4
+
+array = initial location of an array = base address
+
+&array[0] = 
+
+arr + 0(i)= 1st location
+
+arr + i= ist location + 1= 2nd location
+
+(arr + i) = pointer arithmetic
