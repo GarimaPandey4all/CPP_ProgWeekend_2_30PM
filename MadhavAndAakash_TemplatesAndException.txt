@@ -1,0 +1,13 @@
+Exception: Abnormal Behaviour: runtime errors
+
+built-in Exception Handling in C++.
+
+try, catch, throw
+
+Templates:
+
+generic format
+
+1. Function template/Generic Function
+2. Class Template/Generic Class
+
