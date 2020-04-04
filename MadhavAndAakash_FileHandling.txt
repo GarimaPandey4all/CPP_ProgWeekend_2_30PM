@@ -1,0 +1,19 @@
+Streams: Flow of Data
+
+I/O streams are used for input and Output data to and from the program
+
+Iostream is a base/parent class for all classes.
+
+Istream is for input
+
+Cin is the object of istream
+
+Ostream is for Ouput
+
+cout is an object of ostream
+
+ifstream is a file input stream
+
+ofstream is a file output stream
+
+fstream is a sub/child class for both input/output stream
