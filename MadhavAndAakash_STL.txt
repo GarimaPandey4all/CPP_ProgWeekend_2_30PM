@@ -1,0 +1,122 @@
+STL: Standard Template Library: generic Classes and functions
+
+Template: Generic Programming: for different data types
+
+it is a powerful set of c++ template classes.
+
+--> It has three well-structured componenets:
+
+1. Containers
+2. Algorithms
+3. Iterators
+
+-->Containers:
+
+Containers are used to manage collections of objects of a 
+certain kind
+
+used to create data structures like arrays, linked list, trees etc
+
+Containers are generic they can hold elements of any data types
+
+Example: vector: 
+
+-->Algorithms:
+
+Algorithms act on containers. Initialization, sorting , searching, and transforming the contents of containers.
+
+Algorithm library provides abstraction.
+
+-->Iterators: Repetition
+
+Iterators acts as a bridge b/w the containers and algorithms.
+
+Iterators in STL are used to point to the containers.
+
+-->Containers:
+
+Container library is a collection of classes.
+
+Containers are implemented as generic class templates.
+
+like: arrays, list, trees, many more.
+
+stack: LIFO: push() and pop()
+
+stack<int> s1;
+s1.push(10);
+s1.pop();
+
+template <class T>
+class Calculator
+{
+
+};
+
+Calculator<int> C1;
+
+-->Common Containers:
+
+vector:
+queue:
+stack: 
+priority queue
+list
+set
+map
+
+-->Classification of Containers:
+
+1. Sequence Containers
+-like array, linked list etc
+
+2. Associative Containers
+-sorted Data Structures like map, set etc
+
+3. Unsorted Associative Containers
+-Unsorted Data Structures like tress, graph
+
+4. Containers Adapters
+-Interfaces to sequence containers
+
+-->How to use container library?
+
+include array class:
+
+Example:
+
+#include<array>
+
+Syntax:
+
+#include<iostream>
+#include<list>
+
+int main()
+{
+	list<int> obj;
+}
+
+
+--> Array in STL
+
+1. include header file: #include<array>
+
+2. array<int, 4> obj; //declaration
+
+	int- array_type;
+	4- array_size;
+	
+	obj- array_name;
+	
+3. array<int, 4> obj={10, 20, 30, 40}; //Assignment of values during the declaration
+
+#Member functions of Array:
+
+1. at()
+2. [] operator
+3. front()
+4. back()
+5. fill()
+6. swap()-Size and type in both arrays must be same
+7. size()
