@@ -1,0 +1,82 @@
+Pair:
+
+It is also a template class of STL.
+
+but it is not a container.
+
+Syntax:
+
+pair <int, string> p1;
+pair <string, string> p2;
+pair <string, float> p3;
+
+Tuple:
+
+Just like in pair, we can pair two heterogeneuos objects, in tuple we can pair multiple objects.
+
+Syntax:
+
+tuple <T1, T2, T3> tuple1;
+
+Example:
+
+tuple <string, int, int> t1;
+
+
+Relational Operators: Work with pair, tuple and vector as well.
+
+==
+!=
+>
+<
+>=
+<=
+
+
+Vector in STL:
+
+The most general purpose container is the vector.
+
+It supports a Dynamic Array.
+
+Vector provide memory flexibility.
+
+vector size:
+
+Vector being a dynamic array doesn't needs size during execution.
+
+Syntax:
+
+vector <int> v1; //declaration with 0 capacity
+
+Access values from the vector:
+
+1. subscript operator : []
+
+2. at()
+
+Member functions of vector:
+
+-->push_back():
+
+it is used to add value at the end of the vector.
+
+-->pop_back():
+
+It is used to remove last element/value from the vector.
+
+
+capacity():
+
+return capacity of the vector.
+
+size():
+
+It returns the number of elements currently in the vector.
+
+clear():
+
+removes all the elements from the vector.
+
+front() and back(): Same as array class template
+
