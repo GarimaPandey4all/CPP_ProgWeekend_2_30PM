@@ -1,0 +1,45 @@
+List:
+
+List store in non-continous memory allocation.
+
+List class supports a bidirectional linear list.
+
+Functions in list:
+
+sort()
+size()
+push_front()
+push_back()
+pop_front()
+pop_back()
+reverse()
+remove()
+clear()
+
+
+map class in STL:
+
+Maps are used to replicate associative arrays.
+
+Numeric Arrays: int a[5]; float b[3]; char s[5];
+
+Associative Arrays: Key:value
+
+Maps contain sorted key-value pair, in which key is unique and can't be changed, and it can be inserted and deleted but can't be altered.
+
+int sort: ascending order
+string sort: dictionary order/alphabetical order
+
+value associated keys can be altered.
+
+Functions of map class:
+
+insert()
+at()
+size()
+empty()
+clear()
+
+key / value
+Customer number / customer name
+
