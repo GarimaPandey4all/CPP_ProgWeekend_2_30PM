@@ -1,0 +1,38 @@
+Static Members in C++:
+
+1. static local variable
+2. static member variables
+3. static member functions
+
+-->Static Local Variable
+
+concepts as it is taken from C.
+They are by default initialized to zero.
+Their lifetime is throughout the program.
+
+-->Static Member Variable
+
+Declared inside the class.
+Also known as class member variable.
+They must be defined outside the class.
+Static member variable does not belong to any object, but to the whole class.
+There will be only one copy of static member variable for the whole class.
+Any object can use the same copy of class variable.
+They can also be used with class name.
+
+-->Static Member Functions
+
+They are qualified with the keyword static.
+They are also called class member functions.
+They can be invoked/called with or without object.
+They can only access static members of the class.
+
+#Friend Function:
+
+friend function is not a member function of a class to which it is a friend.
+friend function is declared in the class with friend keyword.
+It must be defined outside the class to which it is friend.
+Friend function can access any member of the class to which it is a friend.
+Friend function can't access members of the class directly.
+It has no caller object.
+It should not be defined with membership label.
